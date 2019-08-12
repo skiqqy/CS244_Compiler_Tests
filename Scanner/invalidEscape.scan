@@ -1,0 +1,3 @@
+hello"str \k";
+
+{Expected output: Erro for \k}
