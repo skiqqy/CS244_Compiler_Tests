@@ -1,0 +1,15 @@
+source type_id
+
+function fun (integer)
+begin
+	relax
+end
+
+begin
+	relax
+end
+
+{ expected output:
+
+}
+

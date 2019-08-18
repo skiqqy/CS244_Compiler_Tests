@@ -1,0 +1,15 @@
+source type
+
+function fun (a)
+begin
+	relax
+end
+
+begin
+	relax
+end
+
+{ expected output:
+
+}
+

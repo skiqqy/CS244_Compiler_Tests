@@ -1,0 +1,24 @@
+source valid
+
+function fun_1()
+begin
+	relax
+end
+
+function fun_2(integer a)
+begin
+	relax
+end
+
+function fun_3(integer a, integer b, integer c)
+begin
+	relax
+end
+
+begin
+	integer a, b, c;
+end
+
+{ expected output:
+
+}

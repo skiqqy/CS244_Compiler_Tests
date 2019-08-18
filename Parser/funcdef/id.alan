@@ -1,0 +1,15 @@
+source id
+
+function (integer a, integer b)
+begin
+	relax
+end
+
+begin
+	relax
+end
+
+{ expected output:
+
+}
+

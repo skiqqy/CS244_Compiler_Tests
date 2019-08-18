@@ -1,0 +1,24 @@
+source valid
+
+function fun_1()
+begin
+	relax
+end
+
+function fun_2()
+begin
+	relax
+end
+
+function fun_3()
+begin
+	relax
+end
+
+begin
+	relax
+end
+
+{ expected output:
+
+}

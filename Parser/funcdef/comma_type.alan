@@ -1,0 +1,17 @@
+source comma_type
+
+function fun (integer a, b)
+begin
+	relax
+end
+
+begin
+	relax
+end
+
+{ expected output:
+
+}
+
+
+

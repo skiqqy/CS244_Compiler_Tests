@@ -1,0 +1,12 @@
+source valid
+
+begin
+	integer a, b, c;
+	boolean d, e, f;
+	d := true;
+	e := false;
+	f := d and e;
+	a := 5 + 2;
+	b := 10 - 2;
+	c := a + b
+end
