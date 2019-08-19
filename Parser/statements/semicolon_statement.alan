@@ -1,0 +1,14 @@
+{ parser test case by { Franco Swarts } }
+
+source semicolon_statement
+
+begin
+	integer a, b;
+	a := 50;
+	b := a + 5;
+end
+
+{ expected output:
+alanc: semicolon_statement.alan:9:1: error: expected statement, but found 'end'
+}
+

@@ -1,0 +1,12 @@
+{ parser test case by { Franco Swarts } }
+
+source comma_id
+
+begin
+	integer a, ;
+	relax
+end
+
+{ expected output:
+alanc: comma_id.alan:6:13: error: expected identifier, but found ';'
+}

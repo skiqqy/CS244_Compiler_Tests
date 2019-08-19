@@ -1,0 +1,12 @@
+{ parser test case by { Franco Swarts } }
+
+source id
+
+begin
+	integer;
+	relax
+end
+
+{ expected output:
+alanc: id.alan:6:9: error: expected identifier, but found ';'
+}

@@ -1,0 +1,37 @@
+{ parser test case by { Franco Swarts } }
+
+source valid
+
+function a()
+begin
+	integer a, b, c;
+	relax
+end
+
+function b()
+begin
+	integer a, b, c;
+	boolean d, e, f;
+	relax
+end
+
+function c()
+begin
+	integer a, b, c;
+	a := 5;
+	b := 10;
+	c := (a + b) * 10
+end
+
+function c()
+begin
+ 	z := x or y
+end
+
+begin
+	relax
+end
+
+{ expected output:
+
+}

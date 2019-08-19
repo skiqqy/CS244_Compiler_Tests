@@ -1,0 +1,12 @@
+{ parser test case by { Franco Swarts } }
+
+source type
+
+begin
+	a;
+	relax
+end
+
+{ expected output:
+alanc: type.alan:6:3: error: expected ':=', but found ';'
+}

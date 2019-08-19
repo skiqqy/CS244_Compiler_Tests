@@ -1,0 +1,15 @@
+{ parser test case by { Franco Swarts } }
+
+source valid
+
+begin
+	integer a;
+	boolean b;
+	integer array aa;
+	boolean array bb;
+	relax
+end
+
+{ expected output:
+
+}

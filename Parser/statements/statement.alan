@@ -1,0 +1,10 @@
+{ parser test case by { Franco Swarts } }
+
+source statement
+
+begin
+end
+
+{ expected output:
+alanc: statement.alan:6:1: error: expected statement, but found 'end'
+}
