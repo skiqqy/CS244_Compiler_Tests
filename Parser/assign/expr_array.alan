@@ -1,0 +1,11 @@
+{ parser test case by { Franco Swarts } }
+
+source src_expr_array
+
+begin
+	a[5] := 
+end
+
+{ expected output:
+alanc: expr_array.alan:7:1: error: expected array allocation or expression, but found 'end'
+}

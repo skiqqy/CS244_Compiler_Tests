@@ -1,0 +1,12 @@
+{ parser test case by { Franco Swarts } }
+
+source src_get
+
+begin
+integer a;
+	a;
+end
+
+{ expected output:
+alanc: get.alan:7:3: error: expected ':=', but found ';'
+}

@@ -1,3 +1,5 @@
+{ parser test case by { Franco Swarts } }
+
 source comma_id
 
 function fun (integer a, integer)
@@ -10,7 +12,7 @@ begin
 end
 
 { expected output:
-
+alanc: comma_id.alan:5:33: error: expected identifier, but found ')'
 }
 
 

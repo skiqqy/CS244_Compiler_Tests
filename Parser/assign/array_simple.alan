@@ -1,0 +1,11 @@
+{ parser test case by { Franco Swarts } }
+
+source src_array_simple
+
+begin
+	a:= array;
+end
+
+{ expected output:
+alanc: array_simple.alan:6:11: error: expected factor, but found ';'
+}

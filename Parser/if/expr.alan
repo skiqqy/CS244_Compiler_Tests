@@ -1,0 +1,12 @@
+{ parser test case by { Franco Swarts } }
+
+source src_expr
+
+begin
+	if then
+	end
+end
+
+{ expected output:
+alanc: expr.alan:6:5: error: expected factor, but found 'then'
+}

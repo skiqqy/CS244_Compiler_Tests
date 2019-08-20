@@ -1,0 +1,24 @@
+{ parser test case by { Franco Swarts } }
+
+source statements
+
+function a()
+begin
+	relax
+end
+
+function b()
+begin
+	integer a;
+	relax
+end
+
+begin
+	integer a;
+	boolean b;
+end
+
+{ expected output:
+alanc: statements.alan:19:1: error: expected statement, but found 'end'
+}
+

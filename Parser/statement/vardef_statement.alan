@@ -1,0 +1,19 @@
+{ parser test case by { Franco Swarts } }
+
+source src_vardef_statement
+
+function statement()
+begin
+	integer a, b;
+end
+
+begin
+	call statement()
+end
+
+{ expected output:
+alanc: vardef_statement.alan:8:1: error: expected statement, but found 'end'
+}
+
+
+

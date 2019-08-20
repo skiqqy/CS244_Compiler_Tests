@@ -1,0 +1,11 @@
+{ parser test case by { Franco Swarts } }
+
+source src_bracket_simple
+
+begin
+	a[] := 5 + 5;
+end
+
+{ expected output:
+alanc: bracket_simple.alan:6:4: error: expected factor, but found ']'
+}

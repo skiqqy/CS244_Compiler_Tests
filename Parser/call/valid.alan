@@ -1,0 +1,28 @@
+{ parser test case by { Franco Swarts } }
+
+source src_valid
+
+function fun1()
+begin
+	relax
+end
+
+function fun2(integer a)
+begin
+	relax
+end
+
+function fun3(integer a, boolean b)
+begin
+	relax
+end
+
+begin
+	call fun1();
+	call fun2(5);
+	call fun3(5, false)
+end
+
+{ expected output:
+
+}

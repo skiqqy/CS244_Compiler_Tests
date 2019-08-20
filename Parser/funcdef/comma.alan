@@ -1,8 +1,10 @@
+{ parser test case by { Franco Swarts } }
+
 source comma
 
 function fun (integer a integer b)
-	begin
-relax
+begin
+	relax
 end
 
 begin
@@ -10,7 +12,7 @@ begin
 end
 
 { expected output:
-
+alanc: comma.alan:5:25: error: expected ')', but found 'integer'
 }
 
 

@@ -1,0 +1,19 @@
+{ parser test case by { Franco Swarts } }
+
+source to_type
+
+function fun(integer a, integer b) to
+begin
+	relax
+end
+
+begin
+	relax
+end
+
+{ expected output:
+alanc: to_type.alan:6:1: error: expected type, but found 'begin'
+}
+
+
+

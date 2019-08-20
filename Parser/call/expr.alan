@@ -1,0 +1,16 @@
+{ parser test case by { Franco Swarts } }
+
+source src_expr
+
+function fun1()
+begin
+	relax
+end
+
+begin
+	call fun1(:=);
+end
+
+{ expected output:
+alanc: expr.alan:11:11: error: expected ')', but found ':='
+}

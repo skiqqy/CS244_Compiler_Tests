@@ -1,3 +1,5 @@
+{ parser test case by { Franco Swarts } }
+
 source close_parenthese
 
 function fun(integer a, integer b
@@ -10,7 +12,7 @@ begin
 end
 
 { expected output:
-
+alanc: close_parentheses.alan:6:1: error: expected ')', but found 'begin'
 }
 
 

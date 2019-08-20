@@ -1,0 +1,17 @@
+{ parser test case by { Franco Swarts } }
+
+source open_parenthese
+
+function fun integer a, integer b)
+begin
+	relax
+end
+
+begin
+	relax
+end
+
+{ expected output:
+alanc: open_parentheses.alan:5:14: error: expected '(', but found 'integer'
+}
+

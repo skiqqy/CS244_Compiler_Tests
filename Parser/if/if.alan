@@ -1,0 +1,15 @@
+{ parser test case by { Franco Swarts } }
+
+source src_if
+
+begin
+	a = b then
+	end
+end
+
+{ expected output:
+alanc: if.alan:6:4: error: expected ':=', but found '='
+}
+
+
+

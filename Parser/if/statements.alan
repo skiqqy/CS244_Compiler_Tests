@@ -1,0 +1,12 @@
+{ parser test case by { Franco Swarts } }
+
+source src_statements
+
+begin
+	if a = b then
+	end
+end
+
+{ expected output:
+alanc: statements.alan:7:2: error: expected statement, but found 'end'
+}

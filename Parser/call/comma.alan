@@ -1,0 +1,16 @@
+{ parser test case by { Franco Swarts } }
+
+source src_comma
+
+function fun1(integer a, integer b)
+begin
+	relax
+end
+
+begin
+	call fun1(5 5);
+end
+
+{ expected output:
+alanc: comma.alan:11:14: error: expected ')', but found numeric literal
+}

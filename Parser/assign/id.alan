@@ -1,0 +1,14 @@
+{ parser test case by { Franco Swarts } }
+
+source src_id
+
+begin
+	[] := 5 + 5;
+end
+
+{ expected output:
+alanc: id.alan:6:2: error: expected statement, but found '['
+}
+
+
+

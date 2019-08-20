@@ -1,0 +1,23 @@
+{ parser test case by { Franco Swarts } }
+
+source src_leave
+
+function smallest(integer a, integer b) to integer
+begin
+	if a < b then
+		a
+	elsif a > b then
+		leave b
+	else
+		leave -1
+	end
+end
+
+begin
+	call smallest(3, 5)
+end
+
+{ expected output:
+alanc: leave.alan:9:2: error: expected ':=', but found 'elsif'
+}
+

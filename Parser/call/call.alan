@@ -1,0 +1,16 @@
+{ parser test case by { Franco Swarts } }
+
+source src_call
+
+function fun1()
+begin
+	relax
+end
+
+begin
+	fun1();
+end
+
+{ expected output:
+alanc: call.alan:11:6: error: expected ':=', but found '('
+}

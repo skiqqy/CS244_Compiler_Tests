@@ -1,0 +1,11 @@
+{ parser test case by { Franco Swarts } }
+
+source src_gets
+
+begin
+	a[5] 5 + 5;
+end
+
+{ expected output:
+alanc: gets.alan:6:7: error: expected ':=', but found numeric literal
+}

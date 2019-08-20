@@ -1,0 +1,15 @@
+{ parser test case by { Franco Swarts } }
+
+source src_elsif_statements
+
+begin
+	if a = b then
+		relax
+	elsif a <> b then
+	end
+end
+
+{ expected output:
+alanc: elsif_statements.alan:9:2: error: expected statement, but found 'end'
+}
+

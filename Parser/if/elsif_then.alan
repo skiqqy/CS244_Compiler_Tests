@@ -1,0 +1,16 @@
+{ parser test case by { Franco Swarts } }
+
+source src_elsif_then
+
+begin
+	if a = b then
+	relax
+	elsif a <> b
+		relax
+	end
+end
+
+{ expected output:
+alanc: elsif_then.alan:9:3: error: expected 'then', but found 'relax'
+}
+

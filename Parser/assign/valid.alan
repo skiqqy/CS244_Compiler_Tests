@@ -1,0 +1,19 @@
+{ parser test case by { Franco Swarts } }
+
+source src_valid
+
+begin
+	integer a, b;
+	integer array arr;
+	a := 0;
+	arr[a] := a;
+	arr[1] := 5 + 5;
+	arr[2] := array arr[1];
+	b := array arr[a]
+end
+
+{ expected output:
+
+}
+
+

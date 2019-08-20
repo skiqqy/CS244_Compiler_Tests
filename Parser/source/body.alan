@@ -1,3 +1,5 @@
+{ parser test case by { Franco Swarts } }
+
 source body
 
 function hw()
@@ -6,5 +8,5 @@ begin
 end
 
 { expected output:
-
+alanc: body.alan:13:1: error: expected 'begin', but found end-of-file
 }

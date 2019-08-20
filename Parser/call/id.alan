@@ -1,0 +1,16 @@
+{ parser test case by { Franco Swarts } }
+
+source src_id
+
+function fun1()
+begin
+	relax
+end
+
+begin
+	call()
+end
+
+{ expected output:
+alanc: id.alan:11:6: error: expected identifier, but found '('
+}

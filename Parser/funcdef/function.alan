@@ -1,3 +1,5 @@
+{ parser test case by { Franco Swarts } }
+
 source func
 
 id(integer a, integer b)
@@ -10,5 +12,5 @@ begin
 end
 
 { expected output:
-
+alanc: function.alan:5:1: error: expected 'begin', but found identifier
 }

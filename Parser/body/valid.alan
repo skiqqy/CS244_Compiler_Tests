@@ -1,4 +1,17 @@
+{ parser test case by { Franco Swarts } }
+
 source valid
+
+function a()
+begin
+	relax
+end
+
+function b()
+begin
+	integer a;
+	relax
+end
 
 begin
 	integer a, b, c;
@@ -10,3 +23,7 @@ begin
 	b := 10 - 2;
 	c := a + b
 end
+
+{ expected output:
+
+}

@@ -1,3 +1,5 @@
+{ parser test case by { Franco Swarts } }
+
 source type_id
 
 function fun (integer)
@@ -10,6 +12,6 @@ begin
 end
 
 { expected output:
-
+alanc: type_id.alan:5:22: error: expected identifier, but found ')'
 }
 

@@ -1,3 +1,5 @@
+{ parser test case by { Franco Swarts } }
+
 source valid
 
 function fun_1()

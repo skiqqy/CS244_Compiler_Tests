@@ -1,0 +1,11 @@
+{ parser test case by { Franco Swarts } }
+
+source src_open_bracket
+
+begin
+	a 5] := 5 + 5;
+end
+
+{ expected output:
+alanc: open_bracket.alan:6:4: error: expected ':=', but found numeric literal
+}

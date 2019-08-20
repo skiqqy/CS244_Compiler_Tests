@@ -1,0 +1,12 @@
+{ parser test case by { Franco Swarts } }
+
+source src_simple
+
+begin
+	integer array arr;
+	get arr []
+end
+
+{ expected output:
+alanc: simple.alan:7:11: error: expected factor, but found ']'
+}

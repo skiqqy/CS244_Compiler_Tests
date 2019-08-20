@@ -1,0 +1,17 @@
+{ parser test case by { Franco Swarts } }
+
+source body
+
+function fun(integer a, integer b)
+end
+
+begin
+	relax
+end
+
+{ expected output:
+alanc: body.alan:6:1: error: expected 'begin', but found 'end'
+}
+
+
+

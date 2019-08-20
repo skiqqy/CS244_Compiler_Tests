@@ -1,3 +1,5 @@
+{ parser test case by { Franco Swarts } }
+
 source id
 
 function (integer a, integer b)
@@ -10,6 +12,6 @@ begin
 end
 
 { expected output:
-
+alanc: id.alan:5:10: error: expected identifier, but found '('
 }
 

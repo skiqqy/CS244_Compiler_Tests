@@ -1,0 +1,12 @@
+{ parser test case by { Franco Swarts } }
+
+source src_close_bracket
+
+begin
+integer array arr;
+	get arr [a
+end
+
+{ expected output:
+alanc: close_bracket.alan:8:1: error: expected ']', but found 'end'
+}

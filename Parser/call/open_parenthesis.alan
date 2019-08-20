@@ -1,0 +1,16 @@
+{ parser test case by { Franco Swarts } }
+
+source src_open_parenthesis
+
+function fun1()
+begin
+	relax
+end
+
+begin
+	call fun1);
+end
+
+{ expected output:
+alanc: open_parenthesis.alan:11:11: error: expected '(', but found ')'
+}

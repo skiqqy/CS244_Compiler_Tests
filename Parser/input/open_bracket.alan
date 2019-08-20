@@ -1,0 +1,12 @@
+{ parser test case by { Franco Swarts } }
+
+source src_open_bracket
+
+begin
+integer array arr;
+	get arr a]
+end
+
+{ expected output:
+alanc: open_bracket.alan:7:10: error: expected 'end', but found identifier
+}

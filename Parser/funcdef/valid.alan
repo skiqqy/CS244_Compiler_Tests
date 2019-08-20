@@ -1,3 +1,5 @@
+{ parser test case by { Franco Swarts } }
+
 source valid
 
 function fun_1()
@@ -15,8 +17,19 @@ begin
 	relax
 end
 
+function fun_4(integer a, boolean b) to integer
+begin
+	relax
+end
+
+function fun_5(integer a, boolean b) to boolean
+begin
+	relax
+end
+
 begin
 	integer a, b, c;
+	relax
 end
 
 { expected output:

@@ -1,0 +1,14 @@
+{ parser test case by { Franco Swarts } }
+
+source src_elsif
+
+begin
+	if a = b then
+	a <> b then
+	end
+end
+
+{ expected output:
+alanc: elsif.alan:7:4: error: expected ':=', but found '<>'
+}
+

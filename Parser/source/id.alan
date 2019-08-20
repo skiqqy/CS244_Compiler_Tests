@@ -1,8 +1,11 @@
+{ parser test case by { Franco Swarts } }
+
 source
 
 begin
+	relax
 end
 
 { expected output:
-
+alanc: id.alan:5:1: error: expected identifier, but found 'begin'
 }

@@ -1,0 +1,15 @@
+{ parser test case by { Franco Swarts } }
+
+source src_valid
+
+begin
+	integer a;
+	integer array arr;
+	get a;
+	get arr[a]
+end
+
+{ expected output:
+
+}
+

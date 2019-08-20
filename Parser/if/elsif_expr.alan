@@ -1,0 +1,16 @@
+{ parser test case by { Franco Swarts } }
+
+source src_elsif_expr
+
+begin
+	if a = b then
+		relax
+	elsif then
+		relax
+	end
+end
+
+{ expected output:
+alanc: elsif_expr.alan:8:8: error: expected factor, but found 'then'
+}
+

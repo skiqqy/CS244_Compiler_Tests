@@ -1,8 +1,11 @@
+{ parser test case by { Franco Swarts } }
+
 src
 
 begin
+	relax
 end
 
 { expected output:
-
+alanc: source.alan:3:1: error: expected 'source', but found identifier
 }

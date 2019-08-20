@@ -1,0 +1,52 @@
+{ parser test case by { Franco Swarts } }
+
+source src_valid
+
+begin
+	integer a, b;
+	boolean flag;
+
+	if a < b and flag then
+		put "a < b";
+		flag := true
+	elsif a > b and not flag then
+		put "a > b";
+		flag := false
+	elsif (a = bx) then
+		put "a == b";
+		flag := true
+	else
+		put "error"
+	end;
+
+	if a < b and flag then
+		put "a < b";
+		flag := true
+	elsif a > b and not flag then
+		put "a > b";
+		flag := false
+	else
+		flag := true
+	end;
+
+	if flag then
+		put "flag"
+	elsif not flag then
+		put "not flag"
+	end;
+
+	if flag then
+		put "flag"
+	else
+		put "not flag"
+	end;
+	
+	if flag then
+		put "flag"
+	end
+
+end
+
+{ expected output:
+
+}

@@ -1,0 +1,11 @@
+{ parser test case by { Franco Swarts } }
+
+source src_close_bracket
+
+begin
+	a[5 := 5 + 5;
+end
+
+{ expected output:
+alanc: close_bracket.alan:6:6: error: expected ']', but found ':='
+}

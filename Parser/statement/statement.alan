@@ -1,0 +1,17 @@
+{ parser test case by { Franco Swarts } }
+
+source src_statement
+
+function statement()
+begin
+end
+
+begin
+	call statement()
+end
+
+{ expected output:
+alanc: statement.alan:7:1: error: expected statement, but found 'end'
+}
+
+

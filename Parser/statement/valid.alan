@@ -1,0 +1,61 @@
+{ parser test case by { Franco Swarts } }
+
+source src_valid
+
+function asn()
+begin
+	a := 5
+end
+
+function cll()
+begin
+	call asn()
+end
+
+function fi()
+begin
+	if 2 < 5 then
+		put "2 < 5"
+	elsif 2 > 5 then
+		put "2 > 5"
+	else
+		put "2 == 5"
+	end
+end
+
+function inpt()
+begin
+	get a
+end
+
+function lve() to boolean
+begin
+	leave false
+end
+
+function out()
+begin
+	put "output".5 < 3
+end
+
+function whle()
+begin
+	while true do
+	put "called"
+	end
+end
+
+begin
+	call asn();
+	call cll();
+	call fi();
+	call inpt();
+	call lve();
+	call out();
+	call whle()
+end
+
+{ expected output:
+
+}
+
