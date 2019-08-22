@@ -10,7 +10,7 @@ alanc: statements.alan:19:1: error: expected statement, but found 'end'
 alanc: call.alan:11:6: error: expected ':=', but found '('
 alanc: comma.alan:11:14: error: expected ')', but found numeric literal
 alanc: comma_expr.alan:11:15: error: expected factor, but found ':='
-alanc: expr.alan:11:12: error: expected factor, but found ':='
+alanc: expr.alan:11:12: error: expected ')', but found ':='
 alanc: id.alan:11:6: error: expected identifier, but found '('
 alanc: open_parenthesis.alan:11:11: error: expected '(', but found ')'
 alanc: body.alan:6:1: error: expected 'begin', but found 'end'
