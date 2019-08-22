@@ -15,14 +15,14 @@ alanc: id.alan:11:6: error: expected identifier, but found '('
 alanc: open_parenthesis.alan:11:11: error: expected '(', but found ')'
 alanc: body.alan:6:1: error: expected 'begin', but found 'end'
 alanc: close_parentheses.alan:6:1: error: expected ')', but found 'begin'
-alanc: comma.alan:5:25: error: expected ',', but found 'integer'
+alanc: comma.alan:5:25: error: expected ')', but found 'integer'
 alanc: comma_id.alan:5:33: error: expected identifier, but found ')'
 alanc: comma_type.alan:5:26: error: expected type, but found identifier
 alanc: function.alan:5:1: error: expected 'begin', but found identifier
 alanc: id.alan:5:10: error: expected identifier, but found '('
 alanc: open_parentheses.alan:5:14: error: expected '(', but found 'integer'
 alanc: to_type.alan:6:1: error: expected type, but found 'begin'
-alanc: type.alan:5:15: error: expected type, but found identifier
+alanc: type.alan:5:15: error: expected ')', but found identifier
 alanc: type_id.alan:5:22: error: expected identifier, but found ')'
 alanc: else_statements.alan:9:2: error: expected statement, but found 'end'
 alanc: elsif.alan:7:4: error: expected ':=', but found '<>'
