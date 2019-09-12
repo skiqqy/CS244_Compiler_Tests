@@ -1,0 +1,27 @@
+source trivial
+function func(integer i, integer k) to integer
+begin
+	integer a, b;
+	boolean c;
+	a := b;
+	c := c;
+	a := func(a,b);
+	while c 
+		do
+			relax
+		end
+end
+
+
+function func2() to integer
+begin
+	integer a, b;
+	a := func(a,b)
+end
+
+
+begin
+relax
+end
+
+{expected output -> pass}
