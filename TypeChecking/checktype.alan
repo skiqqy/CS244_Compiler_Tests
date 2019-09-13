@@ -2,26 +2,52 @@ source trivial
 function func(integer i, integer k) to integer
 begin
 	integer a, b;
+	integer array d;
 	boolean c;
-	a := b;
-	c := c;
-	a := func(a,b);
+	d := array a;
+	d[1] := -d[2];
+	a := -b + a;
+    a := a;
+	a := func(d[1], a);
+	b := -2134;
+	{
 	while c 
 		do
 			relax
 		end
+		}
+    leave a 
 end
 
-
-function func2() to integer
+function func2(boolean c)
 begin
 	integer a, b;
 	a := func(a,b)
 end
 
+function func3() to integer
+begin
+	integer a, b;
+	boolean yeet;
+    a := func(a,b);
+	leave a
+end
+
 
 begin
-relax
+	integer a, b;
+	boolean array c;
+	boolean array d;
+	boolean e;
+	call func2(c[1]);
+	a := func3();
+	c := c;
+    if e then
+		c := d; 
+		c[0] := not c[1] and true
+	else
+		a := -b
+	end
 end
 
 {expected output -> pass}
