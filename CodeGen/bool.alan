@@ -1,0 +1,14 @@
+source bool
+begin
+	put "not true           = false -> " . not true . "\n";
+	put "not false          = true -> " . not false. "\n";
+	put "true and true      = true -> " . true and true. "\n";
+	put "true and false     = false -> " . true and false. "\n";
+	put "false and true     = false -> " . false and true. "\n";
+	put "false and false    = false -> " . false and false. "\n";
+	put "ture or true       = true -> " . true or true. "\n";
+	put "false or true      = true -> " . false or true. "\n";
+	put "true or false      = true -> " . true or false. "\n";
+	put "false or false     = false -> " . false or false. "\n";
+	put "EXIT SUCCESS\n"
+end

@@ -1,0 +1,4 @@
+source HelloWorld
+begin
+	put "Hello World!\n"
+end

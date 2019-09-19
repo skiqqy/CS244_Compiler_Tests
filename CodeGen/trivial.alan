@@ -1,0 +1,6 @@
+source trivial
+begin
+	relax
+end
+
+{expected output -> pass}
