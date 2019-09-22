@@ -1,0 +1,10 @@
+source Else
+begin
+	if (1 > 2) then
+		put "if wont print\n"
+	elsif (1 > 2) then
+		put "elsif wont be printed\n"
+	else
+		put "else is printed\n"
+	end
+end

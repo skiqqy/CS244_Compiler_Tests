@@ -1,0 +1,8 @@
+source elseif
+begin
+	if (1 > 2) then
+		put "this wont print\n"
+	elsif 1 > 2 then
+		put "else shouldnt printed\n"
+	end
+end

@@ -1,0 +1,6 @@
+source iff
+begin
+	if 1 < 2 then
+		put "true\n"
+	end
+end

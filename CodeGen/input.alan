@@ -1,0 +1,11 @@
+source input
+begin
+	integer a;
+	boolean b;
+	put "integer input: ";
+	get a;
+	put "input received -> " . a . "\n";
+	put "boolean input: ";
+	get b;
+	put "input received -> " . b . "\n"
+end

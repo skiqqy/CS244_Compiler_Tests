@@ -1,0 +1,9 @@
+source testwhile
+begin
+	integer a;
+	a := 0;
+	while a < 10 do
+		put a . "\n";
+		a := a + 1
+	end
+end

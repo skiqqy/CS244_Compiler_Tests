@@ -1,0 +1,53 @@
+source checktype
+function func(integer i, integer k) to integer
+begin
+    integer a, b, e, f, g, h, j;
+    integer array d;
+    boolean c;
+    d := array a;
+    d[1] := -d[2];
+    a := -b + a;
+    a := i + func(e, j);
+    a := func(d[1], a);
+    b := -2134;
+    while i < 4 
+    do
+        a := b
+    end;
+    leave a 
+end
+
+function func2(boolean c)
+begin
+    integer a, b;
+    a := func(1,b)
+end
+
+function func3() to integer
+begin
+    integer a, b, yoted;
+    boolean yeet;
+    a := func(a,b);
+    leave a
+end
+
+
+begin
+    integer a, b, g, h, i, j, k;
+    boolean array c;
+    boolean array d;
+    boolean e;
+    call func2(c[1]);
+    a := func3();
+    c := c;
+    if e then
+        c := d; 
+        c[0] := not c[1] and true
+    else
+        a := -b;
+		g := a + (b -a)
+    end;
+	g := 24
+end
+
+{expected output -> pass}

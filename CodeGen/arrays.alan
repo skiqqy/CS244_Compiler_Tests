@@ -1,0 +1,8 @@
+source arrays
+begin
+	integer array a;
+	a := array 10;
+	a[1] := 12345;
+	a[0] := 1;
+	put a[1]/5 . " " . a[0] . "\n"
+end

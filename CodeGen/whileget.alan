@@ -1,0 +1,13 @@
+source whileget
+begin
+	integer a;
+	put "Enter a number, to stop enter 0\n";
+	put "input number: ";
+	get a;
+	while a <> 0 do
+		put "you entered " . a . "\n";
+		put "input number: ";
+		get a
+	end;
+	put "Goodbye !!!\n"
+end

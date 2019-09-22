@@ -1,0 +1,10 @@
+source relational
+begin
+	boolean a;
+	integer b;
+	b := 1;
+	a := 1 < 2;
+	put "1 < 2 -> " . a . "\n";
+	a := b > 2;
+	put "b = " . b .", b > 2 -> " . a . "\n"
+end
