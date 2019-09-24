@@ -1,0 +1,29 @@
+RED='\033[0;31m'
+NC='\033[0m'
+BLUE='\033[0;36m'
+clear
+for file in ./*.alan
+do
+	./alanc $file
+done
+
+for file in *.class
+do
+	if [ $file != checktype.class ]; then
+		filename=$file
+		file="${filename%.*}"
+		echo -e "Testing ${RED}$file${NC}"
+		java $file
+		echo -e "${BLUE} PRESS ENTER TO PROCED TO NEXT TEST${NC}"
+		read
+		clear
+	fi
+done
+clear
+echo -e "${RED}### ${BLUE}WOULD YOU LIKE TO CLEAN THE DIRECTORY Y/N ${RED}###${NC}"
+read var
+if [ $var = Y ]; then
+	rm *.class
+	rm *.jasmin
+	echo CLEAN DIR
+fi
