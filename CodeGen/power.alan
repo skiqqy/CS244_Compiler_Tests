@@ -1,0 +1,72 @@
+{Expected output: Even powers of base <j>, up to but not including
+<j>. Where i and j are integers read from the input.}
+
+source everything
+
+function printi(integer i)
+begin
+ put i . "\n";
+ leave
+end
+
+function printia(integer array arr, integer d)
+begin
+ integer i;
+ while (i < d) do
+  put arr[i] . " ";
+  i := i + 1
+ end;
+ put "\n";
+ leave
+end
+
+function printf(boolean array print, integer array arr, integer length)
+begin
+ integer i;
+ while (i < length) do
+  if (print[i]) then
+   call printi(arr[i])
+  else
+   put "\n"
+  end;
+  i := i + 1
+ end;
+ leave
+end
+
+function pow(integer base, integer pow) to integer
+begin
+ integer i, ret;
+ ret := 1;
+ while (i < pow) do
+  ret := ret*base;
+  i := i + 1
+ end;
+ leave ret
+end
+
+begin
+ integer array arr;
+ boolean array bool;
+ integer d, i, base;
+
+ put "Number to go up to: ";
+ get d;
+ arr := array d;
+ bool := array d;
+
+ put "Base: ";
+ get base;
+
+ i := 0;
+ while (i < d) do
+  if (i rem 2 = 0) then
+   bool[i] := true
+  end;
+  arr[i] := pow(base, i);
+  i := i + 1
+ end;
+
+ call printf(bool, arr, d)
+ 
+end
